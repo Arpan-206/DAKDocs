@@ -1,0 +1,14 @@
+input: .
+output: build
+url: https://devarmyknife.hackersreboot.tech/
+branding:
+  title: Dev Army Knife
+  label: Docs
+author: Arpan Pandey
+links:
+- text: ":icon-mark-github: Github"
+  link: https://github.com/Arpan-206/DevArmyKnife
+- text: The App
+  link: https://devarmyknife.hackersreboot.tech/
+footer:
+  copyright: "This Project comes with a MIT License."
