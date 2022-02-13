@@ -51,7 +51,16 @@ The app is very secure since literally no data is stored with us or a big corpor
 
 
 ## Support
-You can send me an email over at [arpan@hackersreboot.tech](mailto:arpan@hackersreboot.tech). You can also try to tag me on one of my socials.
+You can create a Github Issue.
+You can also send me an email over at [arpan@hackersreboot.tech](mailto:arpan@hackersreboot.tech). You can also try to tag me on one of my socials.
+
+## Netlify
+<a href="https://www.netlify.com">
+  <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
+</a><br>
+
+The app and the docs are powered by [Netlify.](https://netlify.com)
+         
 
 ## Socials
 - [Twitter](https://twitter.com/HackersReboot)
