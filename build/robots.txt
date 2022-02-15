@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://devarmyknife.hackersreboot.tech/sitemap.xml.gz
+Sitemap: https://dakdocs.hackersreboot.tech/sitemap.xml.gz
