@@ -24,11 +24,11 @@
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/resources/css/retype.css?v=1.11.2.698063170264" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=1.11.2.698217049560" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.698063170264" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.698217049560" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.698063170264" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.698217049560" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -224,8 +224,6 @@
 <li><doc-anchor-trigger to="#i-want-to-contribute">I Want To Contribute</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#reporting-bugs">Reporting Bugs</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#suggesting-enhancements">Suggesting Enhancements</doc-anchor-trigger></li>
-<li><doc-anchor-trigger to="#your-first-code-contribution">Your First Code Contribution</doc-anchor-trigger></li>
-<li><doc-anchor-trigger to="#improving-the-documentation">Improving The Documentation</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#styleguides">Styleguides</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#commit-messages">Commit Messages</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#join-the-project-team">Join The Project Team</doc-anchor-trigger></li>
@@ -307,7 +305,7 @@
 <ul>
 <li>The project team will label the issue accordingly.</li>
 <li>A team member will try to reproduce the issue with your provided steps. If there are no reproduction steps or no obvious way to reproduce the issue, the team will ask you for those steps and mark the issue as <code v-pre>needs-repro</code>. Bugs with the <code v-pre>needs-repro</code> tag will not be addressed until they are reproduced.</li>
-<li>If the team is able to reproduce the issue, it will be marked <code v-pre>needs-fix</code>, as well as possibly other tags (such as <code v-pre>critical</code>), and the issue will be left to be <doc-anchor-trigger to="#your-first-code-contribution">implemented by someone</doc-anchor-trigger>.</li>
+<li>If the team is able to reproduce the issue, it will be marked <code v-pre>needs-fix</code>, as well as possibly other tags (such as <code v-pre>critical</code>), and the issue will be left to be implemented by someone (inside or outside the team).</li>
 </ul>
 <doc-anchor-target id="suggesting-enhancements">
     <h3>
@@ -339,8 +337,44 @@
 <li>Use a <strong>clear and descriptive title</strong> for the issue to identify the suggestion.</li>
 <li>Provide a <strong>step-by-step description of the suggested enhancement</strong> in as many details as possible.</li>
 <li><strong>Describe the current behavior</strong> and <strong>explain which behavior you expected to see instead</strong> and why. At this point you can also tell which alternatives do not work for you.</li>
-<li>You may want to <strong>include screenshots and animated GIFs</strong> which help you demonstrate the steps or point out the part which the suggestion is related to. You can use <a href="https://www.cockos.com/licecap/">this tool</a> to record GIFs on macOS and Windows, and <a href="https://github.com/colinkeenan/silentcast">this tool</a> or <a href="https://github.com/GNOME/byzanz">this tool</a> on Linux. <!-- this should only be included if the project has a GUI --></li>
+<li>You may want to <strong>include screenshots and animated GIFs</strong> which help you demonstrate the steps or point out the part which the suggestion is related to. You can use <a href="https://www.cockos.com/licecap/">this tool</a> to record GIFs on macOS and Windows, and <a href="https://github.com/colinkeenan/silentcast">this tool</a> or <a href="https://github.com/GNOME/byzanz">this tool</a> on Linux.</li>
 <li><strong>Explain why this enhancement would be useful</strong> to most Dev Army Knife users. You may also want to point out the other projects that solved it better and which could serve as inspiration.</li>
+</ul>
+<doc-anchor-target id="styleguides">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#styleguides">#</doc-anchor-trigger>
+        <span>Styleguides</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>Format your codes properly. I like to use <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">Prettier</a>. You can use any tool but try to keep up with the aesthetics.</li>
+<li>Please comment your code properly. It gets very tedious to have to understand the function of each and every one line of code.</li>
+</ul>
+<doc-anchor-target id="commit-messages">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commit-messages">#</doc-anchor-trigger>
+        <span>Commit Messages</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>Commit Messages should <strong>clearly mention</strong> the changes or the issue addressed.</li>
+<li>Commit Messages should follow the project&#x27;s <a href="/code_of_conduct/">Code Of Conduct</a></li>
+</ul>
+<doc-anchor-target id="join-the-project-team">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#join-the-project-team">#</doc-anchor-trigger>
+        <span>Join the project team</span>
+    </h2>
+</doc-anchor-target>
+<p>If you want to join the project&#x27;s team, please contact <a href="mailto:arpan@hackersreboot.tech">arpan@hackersreboot.tech</a> with neccessary details such as:</p>
+<ul>
+<li>Name</li>
+<li>Age</li>
+<li>Guardian Consent (If below the legal age of consent)</li>
+<li>Qualifications (No problem if you don&#x27;t have any)</li>
+<li>About you</li>
+<li>Why you would like to help?</li>
+<li>Any other detail you may want us to know</li>
 </ul>
 
 
